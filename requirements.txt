@@ -1,5 +1,4 @@
 alabaster==0.7.12
-anaconda-project==0.9.1
 aniso8601==9.0.1
 anyio==2.2.0
 argh==0.26.2
