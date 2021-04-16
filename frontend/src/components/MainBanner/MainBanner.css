@@ -1,0 +1,15 @@
+@import "../../league-fonts/fonts.css";
+
+.MainBanner {
+  outline: none;
+  font-family: "LeagueFontRegular", Arial, Helvetica, sans-serif;
+  font-size: 72px;
+  padding: 10px;
+  margin: 10px;
+  border-style: solid;
+  border-radius: 10px;
+  border-width: 5px;
+  border-color: black;
+  background-color: lightyellow;
+  text-align: center;
+}

@@ -1,0 +1,18 @@
+@import "../../league-fonts/fonts.css";
+
+.QuestionDisplay {
+  outline: none;
+  text-align: center;
+}
+
+.QuestionText {
+  font-family: "LeagueFontBold", Arial, Helvetica, sans-serif;
+  font-size: 36px;
+  padding: 10px 0px 5px 0px;
+}
+
+.QuestionImage {
+  width: 120px;
+  height: auto;
+  padding: 5px 0px 10px 0px;
+}

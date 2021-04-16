@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "LeagueFontRegular";
+  src: url("./Friz_Quadrata_Regular.ttf");
+}
+
+@font-face {
+  font-family: "LeagueFontItalic";
+  src: url("./Friz_Quadrata_Italic.ttf");
+}
+
+@font-face {
+  font-family: "LeagueFontBold";
+  src: url("./Friz_Quadrata_Bold.otf");
+}

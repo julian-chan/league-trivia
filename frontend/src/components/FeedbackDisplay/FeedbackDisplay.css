@@ -1,0 +1,99 @@
+@import "../../league-fonts/fonts.css";
+
+.FeedbackDisplay {
+  outline: none;
+  border-style: solid;
+  border-radius: 10px;
+  border-width: 5px;
+  border-color: black;
+  background-color: lightgray;
+  text-align: center;
+  width: 100%;
+  margin: 0px 10px 0px 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.FeedbackLogoContainer {
+  flex-grow: 1;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.FeedbackLogo {
+  width: 220px;
+  height: auto;
+}
+
+.FeedbackTextAndContinueButtonContainer {
+  flex-grow: 1;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.FeedbackText {
+  font-family: "LeagueFontRegular", Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  outline: none;
+}
+
+.AnswerTextContainer {
+  padding: 10px;
+  margin: auto;
+}
+
+.CorrectText {
+  font-family: "LeagueFontBold", Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  color: green;
+  padding: 0px 0px 10px 0px;
+}
+
+.CorrectAnswerText {
+  font-family: "LeagueFontBold", Arial, Helvetica, sans-serif;
+  color: green;
+  padding: 0px 10px 0px 10px;
+}
+
+.IncorrectText {
+  font-family: "LeagueFontBold", Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  color: red;
+  padding: 0px 0px 10px 0px;
+}
+
+.IncorrectAnswerText {
+  font-family: "LeagueFontBold", Arial, Helvetica, sans-serif;
+  color: red;
+  padding: 0px 10px 0px 10px;
+}
+
+.ExplanationText {
+  font-family: "LeagueFontItalic", Arial, Helvetica, sans-serif;
+  padding: 10px 0px 10px 0px;
+}
+
+.ContinueButton {
+  padding: 10px 25px 10px 25px;
+  font-family: "LeagueFontRegular", Arial, Helvetica, sans-serif;
+  font-size: 48px;
+  color: black;
+  outline: none;
+  border-style: solid;
+  border-radius: 10px;
+  border-width: 2px;
+  border-color: black;
+  background-color: #9AFF9A;
+  transition-duration: 0.5s;
+  margin: auto;
+}
+
+.ContinueButton:hover {
+  background-color: #00EE00;
+  color: black;
+}

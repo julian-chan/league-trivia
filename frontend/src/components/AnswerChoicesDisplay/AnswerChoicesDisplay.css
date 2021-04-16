@@ -1,0 +1,25 @@
+@import "../../league-fonts/fonts.css";
+
+.AnswerChoiceButton {
+  padding: 10px;
+  font-family: "LeagueFontRegular", Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: black;
+  outline: none;
+  border-style: solid;
+  border-radius: 10px;
+  border-width: 2px;
+  border-color: black;
+  background-color: #EEB4B4;
+  transition-duration: 0.5s;
+  margin: 10px 10px 10px 10px;
+}
+
+.AnswerChoiceButton:hover {
+  background-color: #EE3B3B;
+  color: black;
+}
+
+.AnswerChoiceButton:disabled {
+  background-color: #EE3B3B;
+}

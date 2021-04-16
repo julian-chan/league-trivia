@@ -1,0 +1,49 @@
+@import "../../league-fonts/fonts.css";
+
+.GameStatisticsDisplay {
+  outline: none;
+  border-style: solid;
+  border-radius: 10px;
+  border-width: 5px;
+  border-color: black;
+  background-color: lightgreen;
+  text-align: left;
+  width: 30%;
+  margin: 10px auto 10px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.StatisticRowsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.StatisticRow {
+  font-family: "LeagueFontBold", Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  padding: 0px 0px 0px 10px;
+}
+
+.RankImageAndTextContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  padding: 10px;
+}
+
+.RankImage {
+  width: 150px;
+  height: auto;
+  padding: 0px 10px 0px 10px;
+}
+
+.RankText {
+  font-family: "LeagueFontBold", Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  padding: 0px 0px 10px 0px;
+}
