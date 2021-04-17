@@ -1,0 +1,5 @@
+# Ignore Python virtual environment libraries
+/flask-api/venv
+
+# Ignore Python caches
+/flask_api/__pycache__
