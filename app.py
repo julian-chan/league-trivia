@@ -1,19 +1,22 @@
-from flask import Flask
+from flask import Flask, send_from_directory
 # from flask_cors import CORS
 from flask_restful import Api
 from flask_api.LeagueTriviaAPI import ChampionsAPI, SimilarChampionPassivesByColorAPI, SpellsAPI, SimilarSpellsByColorAPI, ItemsAPI, SimilarItemsByTagsAPI, RunesAPI, QuestionAPI
+import os
 
-app = Flask(__name__, static_folder='/frontend/build', static_url_path='/')
+app = Flask(__name__)
 api = Api(app)
 # CORS(app)
 
+root_dir = os.path.dirname(os.getcwd())
+
 @app.route('/')
 def index():
-  return app.send_static_file('index.html')
+  return send_from_directory(os.path.join(root_dir, 'frontend/build', 'index.html'))
 
 @app.errorhandler(404)
 def not_found(e):
-  return app.send_static_file('index.html')
+  return send_from_directory(os.path.join(root_dir, 'frontend/build', 'index.html'))
 
 api.add_resource(ChampionsAPI, '/api/champions')
 api.add_resource(SimilarChampionPassivesByColorAPI, '/api/similarPassives')
