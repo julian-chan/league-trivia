@@ -8,7 +8,7 @@ app = Flask(__name__, static_folder='frontend/build', static_url_path='')
 api = Api(app)
 # CORS(app)
 
-@app.route('/', defaults={'path':''})
+@app.route('/')
 def index():
   return send_from_directory(app.static_folder, 'index.html')
 
