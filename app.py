@@ -3,12 +3,13 @@ from flask import Flask
 from flask_restful import Api
 from flask_api.LeagueTriviaAPI import ChampionsAPI, SimilarChampionPassivesByColorAPI, SpellsAPI, SimilarSpellsByColorAPI, ItemsAPI, SimilarItemsByTagsAPI, RunesAPI, QuestionAPI
 
-app = Flask(__name__, static_folder='./frontend/build', static_url_path='/')
+app = Flask(__name__, static_folder='/frontend/build', static_url_path='/')
 api = Api(app)
 # CORS(app)
 
 @app.route('/')
 def index():
+  print(os.path.abspath(app.static_folder))
   return app.send_static_file('index.html')
 
 @app.errorhandler(404)
