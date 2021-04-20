@@ -13,6 +13,7 @@ function About() {
   return (
     <div className="About">
       <MainBanner bannerText="About"/>
+      Work in progress. Check out the GitHub repository here: https://github.com/julian-chan/league-trivia
       <div className="BackHomeButtonContainer">
         <button className="BackHomeButton" onClick={handleBackHomeButtonClick}>
           Back Home
