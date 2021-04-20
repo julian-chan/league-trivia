@@ -1,42 +1,19 @@
 @import "../../league-fonts/fonts.css";
 
-.Home {
+.About {
   text-align: center;
 }
 
-.LeagueMapImage {
-  width: 1000px;
-  height: auto;
-}
-
-.PlayButtonContainer {
-  padding: 10px;
-}
-
-.PlayButton {
-  padding: 10px 25px 10px 25px;
+.Text {
   font-family: "LeagueFontRegular", Arial, Helvetica, sans-serif;
-  font-size: 48px;
-  color: black;
-  outline: none;
-  border-style: solid;
-  border-radius: 10px;
-  border-width: 2px;
-  border-color: black;
-  background-color: #9AFF9A;
-  transition-duration: 0.5s;
+  font-size: 24px;
 }
 
-.PlayButton:hover {
-  background-color: #00EE00;
-  color: black;
-}
-
-.AboutButtonContainer {
+.BackHomeButtonContainer {
   padding: 10px;
 }
 
-.AboutButton {
+.BackHomeButton {
   padding: 10px 25px 10px 25px;
   font-family: "LeagueFontRegular", Arial, Helvetica, sans-serif;
   font-size: 48px;
@@ -50,7 +27,7 @@
   transition-duration: 0.5s;
 }
 
-.AboutButton:hover {
+.BackHomeButton:hover {
   background-color: gray;
   color: black;
 }

@@ -10,12 +10,26 @@ function Home() {
     history.push("/play");
   }
 
+  const handleAboutButtonClick = () => {
+    history.push("/about");
+  }
+
   return (
     <div className="Home">
-      <MainBanner />
-      <button className="PlayButton" onClick={handlePlayButtonClick}>
-        Play!
-      </button>
+      <MainBanner bannerText="League of Legends Trivia"/>
+      <div className="LeagueMapImageContainer">
+        <img className="LeagueMapImage" src={process.env.PUBLIC_URL + "map.png"} alt="LeagueMap"/>
+      </div>
+      <div className="PlayButtonContainer">
+        <button className="PlayButton" onClick={handlePlayButtonClick}>
+          Play!
+        </button>
+      </div>
+      <div className="AboutButtonContainer">
+        <button className="AboutButton" onClick={handleAboutButtonClick}>
+          About
+        </button>
+      </div>
     </div>
   )
 }
