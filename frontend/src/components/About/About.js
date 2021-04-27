@@ -13,12 +13,14 @@ function About() {
   return (
     <div className="About">
       <MainBanner bannerText="About"/>
-      Work in progress. Check out the GitHub repository here: https://github.com/julian-chan/league-trivia
       <div className="BackHomeButtonContainer">
         <button className="BackHomeButton" onClick={handleBackHomeButtonClick}>
           Back Home
         </button>
       </div>
+      <p className="PatchText">
+        League Trivia includes data up to patch <a href="https://na.leagueoflegends.com/en-us/news/game-updates/patch-11-7-notes/" className="PatchVersionText">11.7</a>.
+      </p>
     </div>
   )
 }

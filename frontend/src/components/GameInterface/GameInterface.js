@@ -129,7 +129,7 @@ function GameInterface(props) {
 
   return (
     <div className="GameInterface">
-      <MainBanner />
+      <MainBanner bannerText="League of Legends Trivia"/>
       <button className="EndGameButton" onClick={handleEndGameButtonClick}>
         End Game
       </button>
