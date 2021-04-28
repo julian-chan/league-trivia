@@ -1,7 +1,7 @@
 # League Trivia
 League Trivia is a League of Legends based trivia game built using React and Python.
 
-This game includes all data up until patch 11.7. Data and assets provided by [Data Dragon](https://developer.riotgames.com/docs/lol#data-dragon).
+This game includes all data up until patch 11.9. Data and assets provided by [Data Dragon](https://developer.riotgames.com/docs/lol#data-dragon).
 
 It was built purely as a hobby project.
 
