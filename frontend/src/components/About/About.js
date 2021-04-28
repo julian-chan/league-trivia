@@ -19,7 +19,7 @@ function About() {
         </button>
       </div>
       <p className="PatchText">
-        League Trivia includes data up to patch <a href="https://na.leagueoflegends.com/en-us/news/game-updates/patch-11-7-notes/" className="PatchVersionText">11.7</a>.
+        League Trivia includes data up to patch <a href="https://na.leagueoflegends.com/en-us/news/game-updates/patch-11-9-notes/" className="PatchVersionText">11.9</a>.
       </p>
     </div>
   )
